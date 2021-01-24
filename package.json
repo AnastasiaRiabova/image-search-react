@@ -1,13 +1,11 @@
 {
-  "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Dmytro-Chernomord.github.io/goit-react-hw-01-components",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "modern-normalize": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -15,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "netlify deploy -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
